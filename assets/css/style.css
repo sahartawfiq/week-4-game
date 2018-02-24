@@ -1,0 +1,42 @@
+
+
+#title{
+	text-align: center;
+	align-items: center;
+}
+p{
+/*	background-color: #58acfa;
+*/	border-color: #0040ff;
+	border-style: solid;
+	border-width: 5px;
+	padding: 10px;
+}
+h1{
+	text-align: left;
+	margin: 20px;
+	padding-right: 100px;
+}
+h2{
+	padding-left: 25px; 
+}
+.row {
+	margin: 30px;
+}
+img {
+	width: 200px;
+	height: 200px;
+}
+.crystals {
+	align-content: center;
+	text-align: center;
+	margin: auto;
+	float: left;
+}
+
+#score{
+	float: left;
+}
+#score{
+	background-color: #0040ff;
+	color: white;
+}

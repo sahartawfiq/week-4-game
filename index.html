@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>crystal game</title>  
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12"> 
+      <h1>Crystals Collector</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-9"> 
+      <p>You will be given a random number "Your Target Number" at the start of the game.
+      There are four crystals below. 
+      Click on a crystal to add a specific amount of points to your total score.
+      You win the game by matching your total score to the target number. You lose the game if your total score goes above the target number.
+      Each time the game starts, the value of each crystal will change.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Your Target Number: <span id="number-to-guess"></span></h2>
+    </div>
+  </div>
+  <div class="row">
+
+    <div class="col-md-12">
+      
+      <img class="crystals" src="assets/images/crystal1.png" value= "0" >
+      
+
+      <img class="crystals" src="assets/images/crystal2.png" value= "1">
+      
+      <img class="crystals" src="assets/images/crystal3.png" value= "2">
+
+     
+      <img class="crystals" src="assets/images/crystal4.png" value= "3" >
+    </div> 
+  </div>
+  <div class="row">
+    <div class="col-md-4" id="score">
+      <h2>Wins: <span id="no-of-wins"></span></h2>
+      <h2 >Losses: <span id="no-of-losses"></span></h2>
+    </div>
+    <div class="col-md-5" id="score">
+      <h2 >Your total score is: </h2>
+      <h2 id="sum"></h2>
+    </div>
+  </div>
+    
+ </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
+   
